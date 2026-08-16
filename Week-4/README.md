@@ -1,72 +1,94 @@
-Week 4 Java Internship Assignments
-Project Title
+# Week 4 Java Internship Assignments
 
-Library Management System
+This week I worked on Java Collections, OOP, File Handling, JDBC, and MySQL.
 
-Objective
+## Regular Assignments
 
-The Library Management System manages books in a library. It allows users to add books, display books, borrow books, return books, save book information to a text file, and load book information from a text file.
+### 1. Student Names using ArrayList
 
-Classes Used
-Book
+Created a program using ArrayList to store student names and print them.
 
-The Book class stores:
+File:
+`StudentNames.java`
 
-Book ID
-Book title
-Author
-Borrowed status
-Library
+### 2. Student Map using HashMap
 
-The Library class manages the collection of books. It provides methods to:
+Created a HashMap to store roll numbers and student names.
 
-Add a book
-Display books
-Borrow a book
-Return a book
-Save books to a file
-Load books from a file
-LibraryManagement
+File:
+`StudentMap.java`
 
-The LibraryManagement class contains the main() method. It provides a menu through which the user interacts with the library system.
+### 3. Sort Numbers using Collections
 
-OOP Concepts
+Created a program to sort a list of numbers using Collections.sort().
 
-The project demonstrates:
+File:
+`SortNumbers.java`
 
-Encapsulation through private fields and getter methods.
-Classes and objects through Book and Library.
-Methods for managing book operations.
-Collections
+### 4. Library Management System
 
-An ArrayList<Book> stores the books in the library.
+Created a small Library Management System using Java OOP and file handling.
 
-File Handling
+Features:
 
-The project uses:
+* Add books
+* Display books
+* Borrow books
+* Return books
+* Save book data to a file
+* Load book data from a file
 
-FileWriter
-FileReader
-BufferedWriter
-BufferedReader
+Files:
+`Book.java`
+`Library.java`
+`LibraryManagement.java`
 
-Book information is stored in books.txt.
+## Capstone Projects
 
-Exception Handling
+### 1. Student Management System
 
-The program handles:
+Created a Student Management System using Java, OOP, JDBC, and MySQL.
 
-FileNotFoundException
-IOException
-NumberFormatException
-Program Flow
-Start the application.
-Display the library menu.
-Add or view books.
-Borrow or return books.
-Save book information to books.txt.
-Load saved book information.
-Exit the application.
-Conclusion
+Features:
 
-The Library Management System demonstrates Java OOP, collections, file handling, and exception handling through a simple menu-driven application.
+* Add student
+* View students
+* Update student
+* Delete student
+* Store student data in MySQL
+
+### 2. ATM Simulation
+
+Created an ATM Simulation using Java and file handling.
+
+Features:
+
+* PIN login
+* Check balance
+* Deposit money
+* Withdraw money
+* View transaction history
+
+### 3. Hotel Booking Management System
+
+Created a Hotel Booking Management System using Java and ArrayList.
+
+Features:
+
+* View available rooms
+* Add booking
+* View bookings
+* Cancel booking
+* Calculate total booking cost
+* Store bookings using ArrayList
+
+## Technologies Used
+
+* Java
+* OOP
+* ArrayList
+* HashMap
+* Collections
+* File Handling
+* JDBC
+* MySQL
